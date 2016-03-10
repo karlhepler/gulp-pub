@@ -71,7 +71,7 @@ function generateRegex() {
 
 	// We have to emulate negative lookbehind.
 	// We will add the non-word back in during replacement.
-	var regex = '(\\W)(';
+	var regex = '((?:[\\s();,])|^)(';
 
 	// Add the function names to the first capture group
 	for ( var functionName in glob.functionPaths ) {
