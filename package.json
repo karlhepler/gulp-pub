@@ -1,6 +1,6 @@
 {
   "name": "gulp-pub",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Replace references to pub functions with the pub path, post-compile.",
   "main": "src/gulp-pub.js",
   "scripts": {

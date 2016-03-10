@@ -82,7 +82,7 @@ function generateRegex() {
 	regex = regex.slice(0, -1) + ')\\([\'"]?(.*?)[\'"]?\\)';
 
 	// Return a regex object
-	return glob.regex = RegExp(regex, 'g');
+	return glob.regex = RegExp(regex, 'gm');
 }
 
 /**
