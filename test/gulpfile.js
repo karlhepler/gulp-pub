@@ -5,7 +5,9 @@ var rename = require('gulp-rename');
 var functionPaths = {
 	img: 'assets/images',
 	js: 'builds/scripts',
-	tpl: 'angular/templates'
+	tpl: 'angular/templates',
+	at: '@/test/root/dir',
+	at2: '@http://testing.com'
 };
 
 gulp.task('buffers', function buffersTask() {

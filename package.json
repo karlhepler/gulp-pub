@@ -1,6 +1,6 @@
 {
   "name": "gulp-pub",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Replace references to pub functions with the pub path, post-compile.",
   "main": "src/gulp-pub.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.7",
-    "js-pub": "^1.0.3",
+    "js-pub": "^1.0.5",
     "replacestream": "^4.0.0",
     "through2": "^2.0.1"
   }
